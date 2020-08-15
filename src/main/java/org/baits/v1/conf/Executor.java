@@ -1,6 +1,6 @@
 package org.baits.v1.conf;
 
-import org.baits.v1.entity.Blog;
+import org.baits.entity.Blog;
 
 import java.sql.*;
 import java.util.ResourceBundle;
