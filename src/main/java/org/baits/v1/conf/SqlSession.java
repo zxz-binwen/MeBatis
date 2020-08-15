@@ -1,4 +1,4 @@
-package org.baits;
+package org.baits.v1.conf;
 
 /**
  * session
@@ -22,7 +22,7 @@ public class SqlSession {
      * @return
      */
     public <T> T selectOne(String statementId, Object parameters) {
-        // org.baits.BlogMapper.getBlogById
+        // org.baits.v1.mapper.BlogMapper.getBlogById
         String sql = Configuration.sqlMappings.getString(statementId);
         return executor.query(sql, parameters);
     }

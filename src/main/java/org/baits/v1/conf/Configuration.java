@@ -1,4 +1,6 @@
-package org.baits;
+package org.baits.v1.conf;
+
+import org.baits.v1.proxy.MapperProxy;
 
 import java.lang.reflect.Proxy;
 import java.util.ResourceBundle;

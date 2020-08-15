@@ -1,4 +1,6 @@
-package org.baits;
+package org.baits.v1.proxy;
+
+import org.baits.v1.conf.SqlSession;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

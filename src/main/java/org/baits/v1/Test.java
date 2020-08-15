@@ -1,4 +1,9 @@
-package org.baits;
+package org.baits.v1;
+
+import org.baits.v1.conf.Configuration;
+import org.baits.v1.conf.Executor;
+import org.baits.v1.conf.SqlSession;
+import org.baits.v1.mapper.BlogMapper;
 
 public class Test {
 

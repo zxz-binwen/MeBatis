@@ -1,4 +1,4 @@
-package org.baits;
+package org.baits.v1.entity;
 
 public class Blog {
 

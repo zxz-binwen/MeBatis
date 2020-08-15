@@ -1,4 +1,6 @@
-package org.baits;
+package org.baits.v1.mapper;
+
+import org.baits.v1.entity.Blog;
 
 public interface BlogMapper {
 
